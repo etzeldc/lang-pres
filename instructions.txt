@@ -1,0 +1,50 @@
+One-page website built using HTML and CSS.
+
+This will use the HTML/CSS Rubric on the student portal for grading.
+
+Importantly, make sure that your code is clean, consistent, and uses the correct
+HTML elements for the job.
+
+You will be giving a short (probably 2-5 minute) presentation on your language
+tomorrow morning.
+
+Answer:
+
+1. Name of language, When? Where? By Who? 
+
+PHP - “personal home page” first. Now, recursive/selfdefining acr: hypertext preprocessor
+Canada
+1994
+Rasmus Lerdorf (using C programming language), who sees himself as PHP’s “the first developer”
+
+2. What purpose does the language serve?
+
+Originally, it was simply to monitor the creator’s online resume and personal information.
+
+PHP is a server-side scripting language. It is primarily used for web development but can also be used as a general purpose programming language. 
+
+PHP is an HTML-embedded scripting language that is most commonly used for dynamics web applications. Since it can be interspersed with HTML, PHP can make it easy to generate dynamic content on websites for elsewhere. PHP differs from the client-side Javascript we will be learning in that code is executed on the server-side, which generates the HTML that is then sent to the client. The client sees what the script has run, but not the underlying code.
+
+3. Give an example of code written in the language.
+
+-html embedded
+-syntax from C, Java, and Perl
+<body>
+	<?php
+		echo “Hi, I’m a PHP script!”;
+	?>
+</body>
+
+< ?php 
+for ($x = 0; $x <= 100; $x++) {
+    echo "The number is: $x <br>";
+} 
+?>
+
+4. Interpreted or Compiled? Strongly or Weakly Typed?
+	Imperative, Functional, Logical
+
+Interpreted
+Weakly
+Functional
+
